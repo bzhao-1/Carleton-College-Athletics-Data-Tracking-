@@ -5,7 +5,7 @@
 import pandas
   
 ## Load Master Spreadsheet with all Varsity Athletes Information
-
+## Can load either spreadsheet data from Mens or Womens Sports by replacing next line
 data = pandas.read_excel("/Users/benzhao/Desktop/Python/Rosters/WomenSports.xlsx")
 
 ## Get Unique Sports from Sport Column and create object for each one 
